@@ -44,7 +44,7 @@ const Form = () => {
             }
 
             segment.entities.forEach((e) => {
-                // console.log(e.type + " => " + e.value)
+                console.log(e.type + " => " + e.value)
                 switch(e.type) {
                     case 'amount':
                         setFormData({ ...formData, amount: e.value })
